@@ -116,14 +116,21 @@ img.profile-picture {
 .main p {
   color: #f7f5bc;
 }
-
 .resume-navigation {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #fc8eac; /* Light pink background */
+  color: white; /* White text color */
   text-align: center;
 }
 
-.resume-navigation {
+.resume-navigation ul {
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
+  margin: 0;
+  background-color: #fc6c85; /* Light pink background */
 }
 
 .resume-navigation ul li {
@@ -132,10 +139,14 @@ img.profile-picture {
 }
 
 .resume-navigation ul li a {
+  color: white;
   text-decoration: none;
-  color: blue;
 }
-.overall{
-  background-color: white;
-  color: black
+
+.resume-navigation ul li a:hover {
+  text-decoration: underline;
+}
+
+.resume-navigation a:hover {
+  text-decoration: underline;
 }
