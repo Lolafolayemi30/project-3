@@ -165,3 +165,8 @@ img.profile-picture {
 .resume-navigation a:hover {
   text-decoration: underline;
 }
+
+map {
+  height: 400px;
+  width: 100%;
+}
