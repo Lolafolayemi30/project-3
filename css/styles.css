@@ -1,6 +1,6 @@
 /* Navigation */
 .navigation {
-  font-family: Arial, sans-serif; /* Use the same font */
+  font-family: Arial; /* Use the same font */
   padding: 20px;
   line-height: 1.6;
   text-align: center;
@@ -80,7 +80,7 @@
   width: 100%;
 }
 .main {
-  font-family: Arial, sans-serif;
+  font-family: Arial;
   line-height: 1.6;
   margin: 0;
   padding: 27px;
@@ -132,7 +132,7 @@ img.profile-picture {
   color: #f7f5bc;
 }
 .resume-navigation {
-  font-family: Arial, sans-serif;
+  font-family: Arial;
   line-height: 1.6;
   margin: 0;
   padding: 20px;
