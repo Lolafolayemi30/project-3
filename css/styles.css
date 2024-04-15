@@ -166,7 +166,7 @@ img.profile-picture {
   text-decoration: underline;
 }
 
-map {
-  height: 400px;
-  width: 100%;
+#map {
+height: 700px;
+width: 100%;
 }

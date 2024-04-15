@@ -6,6 +6,7 @@
     <title>Google Maps API</title>
     <!-- Link to external CSS file -->
     <link rel="stylesheet" href="css/styles.css">
+  
 </head>
 
 <body>
@@ -15,19 +16,18 @@
             <li><a href="page3.html">Page 3</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="index.html">Homepage</a></li>
+            <li><a href="MapsAPI.html">Maps</a></li>
         </ul>
     </div>
     
-    <!-- Google Maps container -->
-    <h1>Google Maps API Example</h1>
+    <h1>Google Maps API - My Location</h1>
     <div id="map"></div>
 
-    <!-- Search box input -->
-    <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+    <!-- Include Google Maps JavaScript API with your API key -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoa1AW9Z1TCrDpdCGYYDt3haW6YI4t2_s&callback=initMap"
+    async defer></script>
 
-    <!-- Include external JavaScript file -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
-    <!-- Link to external JavaScript file -->
-    <script src="script.js"></script>
+    <!-- Include your JavaScript file -->
+    <script src="js/script.js"></script>
 </body>
 </html>
