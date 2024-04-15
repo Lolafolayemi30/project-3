@@ -1,3 +1,42 @@
+/* Default styles */
+
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  /* Style changes for mobile */
+  .navigation ul {
+    flex-direction: column;
+  }
+  .navigation ul li {
+    margin-bottom: 10px;
+  }
+  .header h1 {
+    font-size: 24px;
+  }
+  .main-content .content {
+    padding: 20px;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+}
+
+/* Media query for screens smaller than 400px */
+@media only screen and (max-width: 400px) {
+  /* More style changes for smaller mobile screens */
+  .header h1 {
+    font-size: 20px;
+  }
+  .main-content .content {
+    font-size: 16px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+  .image-container div {
+    width: 100%;
+  }
+}
+
 /* Navigation */
 .navigation {
   font-family: Arial; /* Use the same font */
